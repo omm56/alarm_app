@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: rgb(89, 86, 86);
+    padding: 1em 1em 1em 1em ;
+
+    a{
+        // color: rgb(124, 117, 117);
+        color: white;
+        text-decoration: none;
+    }
+    
+        tr{
+            
+            th a{
+
+            padding: 1em 3em 1em 3em; 
+           width: 100%;
+            &:hover {
+                    background: darken(rgb(106, 107, 107), 20%);
+
+            }
+        }
+    }
+}
