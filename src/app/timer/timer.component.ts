@@ -26,7 +26,7 @@ export class TimerComponent {
       this.s = parseInt(this.ss);
       this.startTimer = setInterval(() => {
         if (this.s >= 0) {
-          this.s = this.s < 10 ? '0' + this.s : this.s;
+          this.s = this.s < 10 ?  '0' + this.s : this.s;
           if (this.h == 0 && this.m == 0 && this.s == 0) {
             clearInterval(this.startTimer)
             return
@@ -47,10 +47,10 @@ export class TimerComponent {
               this.m = 59;
             }
           }
-          console.log("counter:", this.h, this.m, this.s)
+          
         }
         this.s = this.s - 1;
-        
+        console.log("counter:", this.h, this.m, this.s)
       }, 1000)
   }
   stopTimer() {
