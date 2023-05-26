@@ -1,0 +1,149 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #6288df14;
+    font-family: 'Roboto';
+}
+h1{
+    color: floralwhite;
+    padding: auto;
+}
+h3{
+    color: floralwhite;
+    padding: auto;
+}
+p{
+    color: floralwhite;
+}
+.container1{
+    padding: 2px 24px 2px 4px;
+    margin-left: 20px;
+    }
+.content1{
+    padding: .5em 1em .5em 1em;
+    font-size: 14px;
+    background-color: rgb(27, 26, 26);
+    font-family:'digital-clock-font';
+    color : white ;
+    width: 90px;
+    height: 30px;
+}
+
+.timer-buttons{
+    border-radius: 20px;
+    height: 25px;
+    width: 80px;
+    padding: 5px 10px 20px 10px;
+    margin-left: 5px ;
+    margin-right: 5px;
+    background-color: rgb(27, 26, 26);
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+.button-container{
+    // width: 550px;
+    height: 20% ;
+    display: inline-block;
+
+}
+.showtimer{
+    background-color:  rgb(27, 26, 26);
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 20px;
+    color: #f9f9f9;
+    padding-bottom: 5px ;
+    height: 90px;
+    p{
+        font-size: 35px;
+        margin-top: 05px;
+        // margin-bottom: 05px;
+        font-style:'digital-7';
+     }
+}
+.PauseResume{
+    border-radius: 20px;
+    height: 25px;
+    width: 125px;
+    padding: 5px 10px 20px 10px;
+    background-color: rgb(27, 26, 26);
+    font-size: 15px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .container00{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 100vw;
+//     height: 100vh;
+// }
+
+// .sw-container{
+//     background-image: linear-gradient(to right,#6288df, #7774ed);
+//     padding: 15px 20px;
+//     border-radius: 10px;
+//     color: #fff;
+//     text-align: center;
+//     width: 300px;
+//     box-shadow: 0 3px 6px rgba(129,129,129, 0.16),
+//      0 3px 6px rgba(105,105,105, 0.23);
+// }
+// .stopwatch{
+//     font-size: 35px;
+//     margin-bottom: 15px;
+// }
+
+// .starstop{
+//     botton{
+//         background-color: #fff;
+//         border: none;
+//         outline: 0;
+//         cursor: pointer;
+//         border-radius: 50%;
+//         width: 35px;
+//         height: 35px;
+//     }
+// }
